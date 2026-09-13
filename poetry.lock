@@ -922,13 +922,13 @@ files = [
 
 [[package]]
 name = "specklepy"
-version = "2.19.6"
+version = "2.23.0"
 description = "The Python SDK for Speckle 2.0"
 optional = false
-python-versions = "<4.0,>=3.8.0"
+python-versions = "<4.0,>=3.9.0"
 files = [
-    {file = "specklepy-2.19.6-py3-none-any.whl", hash = "sha256:33ab6882c0cf246fe162dabe9d4b7658a124e0c6db4f740881df620ac54fdfcc"},
-    {file = "specklepy-2.19.6.tar.gz", hash = "sha256:33f99af7b0661b2fd0ad190a4450e2d72a57fede36180f66d07a4b9b9ccbded6"},
+    {file = "specklepy-2.23.0-py3-none-any.whl", hash = "sha256:d0cc39aa656ca38741c84bde89c2cec7f363d3e2a0affaa9232d57e1488e40a7"},
+    {file = "specklepy-2.23.0.tar.gz", hash = "sha256:7ba9983f3e07bb5dd8c2d00221a7306bdffc4d6b2997acfac6f5de1919f00847"},
 ]
 
 [package.dependencies]
@@ -938,18 +938,7 @@ Deprecated = ">=1.2.13,<2.0.0"
 gql = {version = ">=3.3.0,<4.0.0", extras = ["requests", "websockets"]}
 httpx = ">=0.25.0,<0.26.0"
 pydantic = ">=2.5,<3.0"
-stringcase = ">=1.2.0,<2.0.0"
 ujson = ">=5.3.0,<6.0.0"
-
-[[package]]
-name = "stringcase"
-version = "1.2.0"
-description = "String case converter."
-optional = false
-python-versions = "*"
-files = [
-    {file = "stringcase-1.2.0.tar.gz", hash = "sha256:48a06980661908efe8d9d34eab2b6c13aefa2163b3ced26972902e3bdfd87008"},
-]
 
 [[package]]
 name = "typing-extensions"
